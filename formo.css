@@ -1,0 +1,57 @@
+.cover{
+  background-image: linear-gradient(red,orange);
+  height: 1800px;
+  border-color: whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  
+}
+form{
+  background-color: linear-gradient(#FF7158, yellow);
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+}
+.title{
+  background-color: white;
+  width: 525px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.7) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: relative;
+  top: -75px;
+  text-align: center;
+  font-size: 28px;
+  color: #EB7003;
+  font-family: monospace;
+}
+input{
+  width: 300px;
+  height: 20px;
+  border-color: transparent ;
+  border-radius:5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#submit{
+  width: 80px;
+  position: relative;
+  left: -70px;
+}
+button{
+  border-radius: 5px;
+  border-color: transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: relative;
+  right:-60px;
+  top: -20px;
+}
